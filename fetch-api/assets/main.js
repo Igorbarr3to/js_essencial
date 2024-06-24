@@ -1,13 +1,16 @@
 async function loadPage(el) {
-  const href = el.getAttribute('href');
+  try{
+    const href = el.getAttribute('href');
+    const response = await fetch(href);
 
-  fetch(href)
-    .then(response => {
-      if(response.status !== 200) throw new Error('ERRO 404');
-      return response.text();
-    })
-    .then(html => loadResult(html))
-    .catch(err => console.log(err));
+    if (response.status !== 200) throw new Error('ERRO 404');
+    
+    const html = await response.text();
+    loadResult(html);
+  }
+  catch(err){ 
+    console.log(err)
+  };
 }
 
 function loadResult(response) {
