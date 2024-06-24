@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #464646;
+  text-align: center;
+  width: 400px;
+  height: 120px;
+  color:#FFF;
+  border-radius: 6px;
+}
+
+.container h1 {
+  margin: 20px;
+}
+
+.container a {
+  color: #36ff2fa1;
+  margin:28px
+}
+
+.result {
+  margin-top: 54px;
+  width: 400px;
+  background-color: #464646;
+  border-radius: 6px;
+  padding: 20px;
+}
