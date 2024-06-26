@@ -1,0 +1,53 @@
+[
+  {
+    "nome": "João Silva",
+    "email": "joao.silva@example.com",
+    "salario": 3500.00,
+    "estado": "SP",
+    "empresa": "Empresa A",
+    "idade": 30,
+    "sexo": "M",
+    "cpf": "123.456.789-00"
+  },
+  {
+    "nome": "Maria Oliveira",
+    "email": "maria.oliveira@example.com",
+    "salario": 4200.00,
+    "estado": "RJ",
+    "empresa": "Empresa B",
+    "idade": 28,
+    "sexo": "F",
+    "cpf": "987.654.321-00"
+  },
+  {
+    "nome": "Carlos Pereira",
+    "email": "carlos.pereira@example.com",
+    "salario": 5000.00,
+    "estado": "MG",
+    "empresa": "Empresa C",
+    "idade": 35,
+    "sexo": "M",
+    "cpf": "456.789.123-00"
+  },
+  {
+    "nome": "Ana Souza",
+    "email": "ana.souza@example.com",
+    "salario": 3800.00,
+    "estado": "BA",
+    "empresa": "Empresa D",
+    "idade": 26,
+    "sexo": "F",
+    "cpf": "321.654.987-00"
+  },
+  {
+    "nome": "Pedro Costa",
+    "email": "pedro.costa@example.com",
+    "salario": 4500.00,
+    "estado": "RS",
+    "empresa": "Empresa E",
+    "idade": 40,
+    "sexo": "M",
+    "cpf": "789.123.456-00"
+  }
+]
+
